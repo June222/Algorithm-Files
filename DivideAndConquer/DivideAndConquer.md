@@ -1,23 +1,31 @@
-### Divide & Conquer
+### 분할 정복
+	1) 분할 정복은 다음과 같은 방식으로 문제를 풀어내려는 알고리즘이다.
 
-	1) 우리말로 분할 정복은 다음과 같은 방식으로 문제를 풀어내려는 알고리즘이다.
-		en) In Korean, 분할 정복 is Algorithm that tries to solve problem the following ways.
-
-	2) 분할 정복 구현(Implementation)
+	2) 분할 정복 구현
 
 		data_type Function(data) {
 
 			if F(x)가 간단하면 :
-				en) F(x) is simple
-
 				return result;
 
 			else :
 				x를 x1과 x2로 분할;
-				en) Divide x down to x1 & x2;
-
 				return F(x1), F(x2)로 구한 F(x)값;
-				en) return F(x) value obtained by F(x1), F(x2);
+		}
+
+### Divide & Conquer
+	1) Divide-and-Conquer is Algorithm that tries to solve problem the following ways.
+
+	2) Divide-and-Conquer Implementation 
+
+		data_type Function(data) {
+
+			if F(x) is simple :
+				return result;
+
+			else :
+				Divide x down to x1 & x2;
+				return F(x) value obtained by F(x1), F(x2);
 		}
 
 # * 중요 *
