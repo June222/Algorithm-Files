@@ -1,5 +1,5 @@
 ### 분할 정복
-	: 문제를 둘 이상의 하위 문제로 나누어 문제를 해결하려는 알고리즘으로 아래 3단계를 따른다.
+	분할 정복은 문제를 둘 이상의 하위 문제로 나누어 문제를 해결하려는 알고리즘으로 아래 3단계를 따른다.
 
 	ㄱ. 분할: 더 이상 나누어지지 않을 때까지 동일한 유형의 문제로 가장 작은 단위까지 문제를 쪼개어 나눔.
 	ㄴ. 정복: 가장 작은 단위의 하위 문제들을 해결하여 정복함.
@@ -27,7 +27,7 @@
 
 
 # 구현
-	return_type Function(x)
+	data_type Function(data) 
 	{
 		if F(x)가 간단하면 :
 			return result;
@@ -38,7 +38,7 @@
 	}
 
 # Implementation
-	return_type Function(x)
+	data_type Function(data)
 	{
 		if F(x) is simple :
 			return result;
