@@ -16,6 +16,7 @@ node* buff[26];
 
 int N;
 
+// 부모 -> 왼쪽 자식 -> 오른쪽 자식 순
 void print_pre_order(node* n)
 {
 	cout << n->data;
@@ -23,12 +24,15 @@ void print_pre_order(node* n)
 	if (n->right != NULL) print_pre_order(n->right);
 
 }
+// 맨 왼쪽, 아래의 자식을 출력 -> 오른쪽 자식 -> 부모
 void print_in_order(node* n)
 {
 	if (n->left != NULL) print_in_order(n->left);
 	cout << n->data;
 	if (n->right != NULL) print_in_order(n->right);
 }
+
+// 맨 오른쪽, 아래의 자식을 출력 -> 왼쪽 자식 -> 부모
 void print_post_order(node* n)
 {
 	if (n->left != NULL) print_post_order(n->left);
@@ -36,6 +40,7 @@ void print_post_order(node* n)
 	cout << n->data;
 }
 
+// 자식 설정은 모든 노드를 생성한 이후에 
 void setChilds(node* n)
 {
 	char data_left = Childs[n->data - 65].first; char data_right = Childs[n->data - 65].second;
@@ -58,6 +63,7 @@ int main()
 		char p, l, r;
 		cin >> p >> l >> r;
 
+		// 생성자의 방식과 다르면 사용하지 못함.
 		buff[p - 65] = new node{ p,NULL,NULL };
 
 		Childs[p - 65].first = l;
