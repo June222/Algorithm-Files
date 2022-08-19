@@ -24,7 +24,7 @@ void print_pre_order(node* n)
 	if (n->right != NULL) print_pre_order(n->right);
 
 }
-// 맨 왼쪽, 아래의 자식을 출력 -> 부모 -> 오른쪽 자식
+// 왼쪽 자식 -> 부모 -> 오른쪽 자식 순
 void print_in_order(node* n)
 {
 	if (n->left != NULL) print_in_order(n->left);
@@ -32,7 +32,7 @@ void print_in_order(node* n)
 	if (n->right != NULL) print_in_order(n->right);
 }
 
-// 맨 오른쪽, 아래의 자식을 출력 -> 부모 -> 왼쪽 자식
+// 왼쪽 자식 -> 오른쪽 자식 -> 부모 순
 void print_post_order(node* n)
 {
 	if (n->left != NULL) print_post_order(n->left);
