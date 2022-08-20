@@ -1,3 +1,5 @@
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FJune222%2FAlgorithm-Files&count_bg=%23BC2931&title_bg=%23555555&icon=mediafire.svg&icon_color=%23E08F8F&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
 # Algorithm-Files
 모든 알고리즘 연습들이 올라올 레포지토리입니다.
 
