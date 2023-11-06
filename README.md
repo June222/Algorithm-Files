@@ -1,9 +1,13 @@
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FJune222%2FAlgorithm-Files&count_bg=%23BC2931&title_bg=%23555555&icon=mediafire.svg&icon_color=%23E08F8F&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+# Practice Algorithm Repository
+연습한 알고리즘들을 업로드하는 레포지토리입니다.
+
+
+
+## 백준 랭크
 
 [![Solved.ac/profile/jangtai4](http://mazassumnida.wtf/api/v2/generate_badge?boj=jangtai4)](https://solved.ac/jangtai4)
 
-# Algorithm-Files
-모든 알고리즘 연습들이 올라올 레포지토리입니다.
+
 
 # 22-07-21 까지의 알고리즘 연습 방법 :
 
@@ -24,3 +28,5 @@
 	4-1. 아래에서 힌트를 봤음에도 구현할 수 없다면, 블로그를 통해 답지를 2개 이상	확인하고, 정리한 후 당일에는 제출하지 않는다.
 
 	5. 질문 검색을 하여 반례를 찾거나, 블로그를 통해 답을 확인한 경우에는 꼭 한글파일로 정리를 한다.
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FJune222%2FAlgorithm-Files&count_bg=%23BC2931&title_bg=%23555555&icon=mediafire.svg&icon_color=%23E08F8F&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
